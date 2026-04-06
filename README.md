@@ -1,9 +1,9 @@
 # IDVault
-# A secure, offline ID card manager for Android — store, organize, and access your important cards anytime.
-# About
+## A secure, offline ID card manager for Android — store, organize, and access your important cards anytime.
+### About
 #IDVault is an Android application that lets you securely store photos of your ID cards (Aadhar, College ID, PAN, Driving License, etc.) directly on your device — no internet, no cloud, no third-party servers. Everything stays private on your phone.
 
-# ✨Features
+### ✨Features
 FeatureDescription
 🔐 PIN       LockSecure your vault with a custom 4-digit PIN 
 🗂️ Card      StorageAdd and store multiple ID card images
@@ -15,9 +15,16 @@ FeatureDescription
 🌙DarkTheme  Premium dark vault-themed UI
 📴Offline    100% offline — no internet required
 
-# 📸Screens    PIN ScreenHome ScreenSearchProfileSecure loginGrid of cardsFilter by nameStats & settings
+### 📸Screens    
+PIN Screen 
+Home Screen
+Search Profile
+Secure login
+Grid of cards
+Filter by name
+Stats & Settings
 
-# 🛠️Tech Stack
+### 🛠️Tech Stack
 
 Language: Java
 UI: XML Layouts
