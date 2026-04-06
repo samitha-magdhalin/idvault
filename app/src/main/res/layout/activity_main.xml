@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="🔐"
+        android:textSize="56sp"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="IDVault"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Your secure card wallet"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/pinInput"
+        android:hint="Enter PIN"
+        android:textColor="@color/text_primary"
+        android:inputType="numberPassword"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:letterSpacing="0.3"
+        android:padding="16dp"
+        android:background="@drawable/card_bg"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/unlockBtn"
+        android:text="UNLOCK VAULT"
+        android:textColor="#0D0F1A"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/btn_primary"
+        android:padding="16dp"
+        android:stateListAnimator="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
